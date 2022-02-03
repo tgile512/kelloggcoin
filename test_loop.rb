@@ -28,6 +28,5 @@ puts name_array
 
 # Create starting balance variables
 
-for name in name_array
-  puts name + " balance"
-end
+for transaction in blockchain
+  if transaction[:]
